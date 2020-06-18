@@ -1,16 +1,17 @@
 @media only screen and (max-width: 480px) {
   body {
-    background-color: red; }
+    background-color: red;
+  }
 
-#small {
+  #small {
     display: block;
     font-size: x-large;
-}
+  }
 
-#medium, 
-#large {
-    none
-}
+  #medium,
+  #large {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
@@ -18,14 +19,15 @@
     background-color: green;
   }
 
-#medium {
+  #medium {
     display: block;
-    font-size: x-large;   
-}
+    font-size: x-large;
+  }
 
-#small, #large {
-    none
-}
+  #small,
+  #large {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -33,16 +35,13 @@
     background-color: blue;
   }
 
-  #small, #medium {
-      none
+  #small,
+  #medium {
+    display: none;
+  }
 
-}
-
-#large {
+  #large {
     display: block;
     font-size: x-large;
-
+  }
 }
-
-}
-
