@@ -1,17 +1,48 @@
 @media only screen and (max-width: 480px) {
   body {
-    background-color: red;
-  }
+    background-color: red; }
+
+#small {
+    display: block;
+    font-size: x-large;
+}
+
+#medium, 
+#large {
+    none
+}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
   body {
     background-color: green;
   }
+
+#medium {
+    display: block;
+    font-size: x-large;   
+}
+
+#small, #large {
+    none
+}
 }
 
 @media only screen and (min-width: 1024px) {
   body {
     background-color: blue;
   }
+
+  #small, #medium {
+      none
+
 }
+
+#large {
+    display: block;
+    font-size: x-large;
+
+}
+
+}
+
